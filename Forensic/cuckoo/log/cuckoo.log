@@ -1,0 +1,128 @@
+2014-01-10 11:51:47,530 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:51:54,729 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:54:43,819 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:55:27,063 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:55:45,122 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:55:51,002 [root] DEBUG: Importing modules...
+2014-01-10 11:55:51,089 [root] DEBUG: Imported "signatures" modules:
+2014-01-10 11:55:51,089 [root] DEBUG: 	 |-- CreatesExe
+2014-01-10 11:55:51,090 [root] DEBUG: 	 `-- SystemMetrics
+2014-01-10 11:55:51,090 [root] DEBUG: Imported "processing" modules:
+2014-01-10 11:55:51,090 [root] DEBUG: 	 |-- AnalysisInfo
+2014-01-10 11:55:51,090 [root] DEBUG: 	 |-- BehaviorAnalysis
+2014-01-10 11:55:51,090 [root] DEBUG: 	 |-- Debug
+2014-01-10 11:55:51,091 [root] DEBUG: 	 |-- Dropped
+2014-01-10 11:55:51,091 [root] DEBUG: 	 |-- Memory
+2014-01-10 11:55:51,091 [root] DEBUG: 	 |-- NetworkAnalysis
+2014-01-10 11:55:51,091 [root] DEBUG: 	 |-- Static
+2014-01-10 11:55:51,091 [root] DEBUG: 	 |-- Strings
+2014-01-10 11:55:51,092 [root] DEBUG: 	 |-- TargetInfo
+2014-01-10 11:55:51,092 [root] DEBUG: 	 `-- VirusTotal
+2014-01-10 11:55:51,092 [root] DEBUG: Imported "auxiliary" modules:
+2014-01-10 11:55:51,092 [root] DEBUG: 	 `-- Sniffer
+2014-01-10 11:55:51,092 [root] DEBUG: Imported "reporting" modules:
+2014-01-10 11:55:51,092 [root] DEBUG: 	 |-- HPFClient
+2014-01-10 11:55:51,093 [root] DEBUG: 	 |-- JsonDump
+2014-01-10 11:55:51,093 [root] DEBUG: 	 |-- MAEC40Report
+2014-01-10 11:55:51,093 [root] DEBUG: 	 |-- MMDef
+2014-01-10 11:55:51,093 [root] DEBUG: 	 |-- MongoDB
+2014-01-10 11:55:51,093 [root] DEBUG: 	 `-- ReportHTML
+2014-01-10 11:55:51,094 [root] DEBUG: Imported "machinery" modules:
+2014-01-10 11:55:51,094 [root] DEBUG: 	 `-- VirtualBox
+2014-01-10 11:55:51,111 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:56:06,949 [root] DEBUG: Importing modules...
+2014-01-10 11:56:07,035 [root] DEBUG: Imported "signatures" modules:
+2014-01-10 11:56:07,035 [root] DEBUG: 	 |-- CreatesExe
+2014-01-10 11:56:07,035 [root] DEBUG: 	 `-- SystemMetrics
+2014-01-10 11:56:07,035 [root] DEBUG: Imported "processing" modules:
+2014-01-10 11:56:07,035 [root] DEBUG: 	 |-- AnalysisInfo
+2014-01-10 11:56:07,036 [root] DEBUG: 	 |-- BehaviorAnalysis
+2014-01-10 11:56:07,036 [root] DEBUG: 	 |-- Debug
+2014-01-10 11:56:07,036 [root] DEBUG: 	 |-- Dropped
+2014-01-10 11:56:07,036 [root] DEBUG: 	 |-- Memory
+2014-01-10 11:56:07,036 [root] DEBUG: 	 |-- NetworkAnalysis
+2014-01-10 11:56:07,037 [root] DEBUG: 	 |-- Static
+2014-01-10 11:56:07,037 [root] DEBUG: 	 |-- Strings
+2014-01-10 11:56:07,037 [root] DEBUG: 	 |-- TargetInfo
+2014-01-10 11:56:07,037 [root] DEBUG: 	 `-- VirusTotal
+2014-01-10 11:56:07,037 [root] DEBUG: Imported "auxiliary" modules:
+2014-01-10 11:56:07,038 [root] DEBUG: 	 `-- Sniffer
+2014-01-10 11:56:07,038 [root] DEBUG: Imported "reporting" modules:
+2014-01-10 11:56:07,038 [root] DEBUG: 	 |-- HPFClient
+2014-01-10 11:56:07,038 [root] DEBUG: 	 |-- JsonDump
+2014-01-10 11:56:07,039 [root] DEBUG: 	 |-- MAEC40Report
+2014-01-10 11:56:07,039 [root] DEBUG: 	 |-- MMDef
+2014-01-10 11:56:07,039 [root] DEBUG: 	 |-- MongoDB
+2014-01-10 11:56:07,039 [root] DEBUG: 	 `-- ReportHTML
+2014-01-10 11:56:07,039 [root] DEBUG: Imported "machinery" modules:
+2014-01-10 11:56:07,039 [root] DEBUG: 	 `-- VirtualBox
+2014-01-10 11:56:07,057 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:56:12,841 [root] DEBUG: Importing modules...
+2014-01-10 11:56:12,928 [root] DEBUG: Imported "signatures" modules:
+2014-01-10 11:56:12,928 [root] DEBUG: 	 |-- CreatesExe
+2014-01-10 11:56:12,928 [root] DEBUG: 	 `-- SystemMetrics
+2014-01-10 11:56:12,928 [root] DEBUG: Imported "processing" modules:
+2014-01-10 11:56:12,929 [root] DEBUG: 	 |-- AnalysisInfo
+2014-01-10 11:56:12,929 [root] DEBUG: 	 |-- BehaviorAnalysis
+2014-01-10 11:56:12,929 [root] DEBUG: 	 |-- Debug
+2014-01-10 11:56:12,929 [root] DEBUG: 	 |-- Dropped
+2014-01-10 11:56:12,929 [root] DEBUG: 	 |-- Memory
+2014-01-10 11:56:12,930 [root] DEBUG: 	 |-- NetworkAnalysis
+2014-01-10 11:56:12,930 [root] DEBUG: 	 |-- Static
+2014-01-10 11:56:12,930 [root] DEBUG: 	 |-- Strings
+2014-01-10 11:56:12,930 [root] DEBUG: 	 |-- TargetInfo
+2014-01-10 11:56:12,930 [root] DEBUG: 	 `-- VirusTotal
+2014-01-10 11:56:12,930 [root] DEBUG: Imported "auxiliary" modules:
+2014-01-10 11:56:12,931 [root] DEBUG: 	 `-- Sniffer
+2014-01-10 11:56:12,931 [root] DEBUG: Imported "reporting" modules:
+2014-01-10 11:56:12,931 [root] DEBUG: 	 |-- HPFClient
+2014-01-10 11:56:12,931 [root] DEBUG: 	 |-- JsonDump
+2014-01-10 11:56:12,931 [root] DEBUG: 	 |-- MAEC40Report
+2014-01-10 11:56:12,932 [root] DEBUG: 	 |-- MMDef
+2014-01-10 11:56:12,932 [root] DEBUG: 	 |-- MongoDB
+2014-01-10 11:56:12,932 [root] DEBUG: 	 `-- ReportHTML
+2014-01-10 11:56:12,932 [root] DEBUG: Imported "machinery" modules:
+2014-01-10 11:56:12,932 [root] DEBUG: 	 `-- VirtualBox
+2014-01-10 11:56:12,950 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:59:08,999 [root] DEBUG: Importing modules...
+2014-01-10 11:59:09,087 [root] DEBUG: Imported "signatures" modules:
+2014-01-10 11:59:09,087 [root] DEBUG: 	 |-- CreatesExe
+2014-01-10 11:59:09,088 [root] DEBUG: 	 `-- SystemMetrics
+2014-01-10 11:59:09,088 [root] DEBUG: Imported "processing" modules:
+2014-01-10 11:59:09,088 [root] DEBUG: 	 |-- AnalysisInfo
+2014-01-10 11:59:09,088 [root] DEBUG: 	 |-- BehaviorAnalysis
+2014-01-10 11:59:09,088 [root] DEBUG: 	 |-- Debug
+2014-01-10 11:59:09,089 [root] DEBUG: 	 |-- Dropped
+2014-01-10 11:59:09,089 [root] DEBUG: 	 |-- Memory
+2014-01-10 11:59:09,089 [root] DEBUG: 	 |-- NetworkAnalysis
+2014-01-10 11:59:09,089 [root] DEBUG: 	 |-- Static
+2014-01-10 11:59:09,089 [root] DEBUG: 	 |-- Strings
+2014-01-10 11:59:09,090 [root] DEBUG: 	 |-- TargetInfo
+2014-01-10 11:59:09,090 [root] DEBUG: 	 `-- VirusTotal
+2014-01-10 11:59:09,090 [root] DEBUG: Imported "auxiliary" modules:
+2014-01-10 11:59:09,090 [root] DEBUG: 	 `-- Sniffer
+2014-01-10 11:59:09,090 [root] DEBUG: Imported "reporting" modules:
+2014-01-10 11:59:09,091 [root] DEBUG: 	 |-- HPFClient
+2014-01-10 11:59:09,091 [root] DEBUG: 	 |-- JsonDump
+2014-01-10 11:59:09,091 [root] DEBUG: 	 |-- MAEC40Report
+2014-01-10 11:59:09,091 [root] DEBUG: 	 |-- MMDef
+2014-01-10 11:59:09,091 [root] DEBUG: 	 |-- MongoDB
+2014-01-10 11:59:09,091 [root] DEBUG: 	 `-- ReportHTML
+2014-01-10 11:59:09,092 [root] DEBUG: Imported "machinery" modules:
+2014-01-10 11:59:09,092 [root] DEBUG: 	 `-- VirtualBox
+2014-01-10 11:59:09,109 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:59:11,755 [root] CRITICAL: CuckooCriticalError: Unable to bind result server on 192.168.56.1:2042: [Errno 99] Cannot assign requested address
+2014-01-10 11:59:49,796 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2014-01-10 12:00:44,095 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2014-01-10 12:04:06,004 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2014-01-10 12:06:27,309 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2014-01-10 12:12:11,118 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2014-01-10 12:16:56,268 [lib.cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2014-01-10 12:16:56,302 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks...
+2014-01-10 12:16:57,523 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/tmp/cuckoo-tmp/upload_28QLyH/executable.2772.exe" (task=3)
+2014-01-10 12:16:57,728 [lib.cuckoo.core.scheduler] INFO: Task #3: acquired machine cuckoo1 (label=cuckoo1)
+2014-01-10 12:16:57,965 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 19647 (interface=vboxnet0, host=192.168.56.101, dump path=/home/shoxx/Bureau/cuckoo/storage/analyses/3/dump.pcap)
+2014-01-10 12:17:03,030 [lib.cuckoo.core.scheduler] ERROR: VBoxManage exited with error restoring the machine's snapshot
+2014-01-10 12:17:03,848 [lib.cuckoo.core.scheduler] WARNING: Unable to stop machine cuckoo1: Trying to stop an already stopped vm cuckoo1
+2014-01-10 12:17:04,698 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/tmp/cuckoo-tmp/upload_28QLyH/executable.2772.exe" (task=3)
+2014-01-10 12:17:04,706 [lib.cuckoo.core.scheduler] INFO: File already exists at "/home/shoxx/Bureau/cuckoo/storage/binaries/4edd7cc311f16e4ca729fdd4d2c1e453949b7276b2e5c903f8c0e9eb35b3d346"

